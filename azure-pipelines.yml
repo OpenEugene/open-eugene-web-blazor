@@ -36,4 +36,4 @@ steps:
     azureSubscription: 'Open Eugene Subscription (b7ff28a8-8aba-477e-b11d-e8407e163685)'
     appType: 'webApp'
     WebAppName: 'OpenEugeneWeb'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '$(build.artifactStagingDirectory)/**/*.zip'
